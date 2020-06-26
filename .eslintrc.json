@@ -1,0 +1,61 @@
+{
+    "env": {
+        "browser": true,
+        "es2020": true,
+        "jest": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "airbnb"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 11,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+        "@typescript-eslint",
+        "jest"
+    ],
+    "settings": {
+        "import/resolver": {
+            "typescript": {} // this loads <rootdir>/tsconfig.json to eslint
+        }
+    },
+    "rules": {
+        "react/jsx-filename-extension": [
+            1,
+            {
+                "extensions": [
+                    ".ts",
+                    ".tsx"
+                ]
+            }
+        ],
+        "import/extensions": "off",
+        "@typescript-eslint/no-unused-vars": [
+            "error"
+        ],
+        "react/jsx-props-no-spreading": "off",
+        "import/no-extraneous-dependencies": [
+            "error",
+            {
+                "devDependencies": true
+            }
+        ],
+        "react/prop-types": 0,
+        "linebreak-style": 0,
+        "react/jsx-indent": [
+            1,
+            4
+        ],
+        "indent": [
+            1,
+            4
+        ]
+    }
+}
