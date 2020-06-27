@@ -58,12 +58,12 @@ export const ModalSolution = Modal.styled`
   width: 380px;
   height: 100vh;
   display: flex;
-  align-items: center;
   justify-content: center;
   background-color: #f3f6f8;
   position: fixed;
   top: 56px;
   right: 0;
+  overflow-y: scroll;
 `;
 
 export const ModalBackground = styled(BaseModalBackground)`

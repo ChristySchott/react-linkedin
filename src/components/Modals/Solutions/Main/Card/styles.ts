@@ -6,6 +6,7 @@ export const Container = styled.div`
   padding-bottom: 0;
   margin-bottom: 12px;
   background-color: #fff;
+  max-width: 313px;
 `;
 
 export const Title = styled.div`
@@ -25,4 +26,5 @@ export const Divider = styled.div`
 `;
 
 export const Content = styled.div`
+  
 `;
