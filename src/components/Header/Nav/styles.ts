@@ -4,6 +4,7 @@ import Modal, { BaseModalBackground } from 'styled-react-modal';
 
 interface Props {
   active: number;
+  notification: any;
 }
 
 export const Container = styled.div`
@@ -42,6 +43,22 @@ export const NavMain = styled.ul<Props>`
     }
     svg {
       fill: #ffffff;
+    }
+  }
+
+  li:nth-of-type(${({ notification }) => notification[0]}) {
+    a {
+      span:nth-child(2) {
+        display: none;
+      }
+    }
+  }
+
+  li:nth-of-type(${({ notification }) => notification[1]}) {
+    a {
+      span:nth-child(2) {
+        display: none;
+      }
     }
   }
 

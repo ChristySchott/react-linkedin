@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import React, { useState, MouseEvent } from 'react';
 
 import { Link } from 'react-router-dom';
@@ -21,6 +22,7 @@ import {
 const Nav: React.FC = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [isOpenSolution, setIsOpenSolution] = useState(false);
+    const [notification, setNotification] = useState<any[]>([]);
 
     const [active, setActive] = useState(1);
 
@@ -37,12 +39,12 @@ const Nav: React.FC = () => {
     return (
         <Container>
             <ModalProvider backgroundComponent={ModalBackground}>
-                <NavMain active={active}>
+                <NavMain active={active} notification={notification}>
                     <Item path="/" icon={<ReactHome />} text="Início" onClick={() => setActive(1)} />
-                    <Item path="/network" icon={<ReactNetwork />} text="Minha rede" onClick={() => setActive(2)} />
+                    <Item notification path="/network" icon={<ReactNetwork />} text="Minha rede" onClick={() => { setActive(2); setNotification([...notification, 2]); }} />
                     <Item path="/jobs" icon={<ReactJobs />} text="Vagas" onClick={() => setActive(3)} />
                     <Item path="/messages" icon={<ReactMessages />} text="Mensagens" onClick={() => setActive(4)} />
-                    <Item path="/notifications" icon={<ReactNotifications />} text="Notificações" onClick={() => setActive(5)} />
+                    <Item notification path="/notifications" icon={<ReactNotifications />} text="Notificações" onClick={() => { setActive(5); setNotification([...notification, 5]); }} />
                     <Item icon={<ReactUser />} text="Eu" drop onClick={toggleModal} />
                     <Item icon={<BsFillGrid3X3GapFill size={18} />} text="Soluções" drop onClick={toggleModalSolution} />
                     <Premium><Link to="/">Reative Premium</Link></Premium>

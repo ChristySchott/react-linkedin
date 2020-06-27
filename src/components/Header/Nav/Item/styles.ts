@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.li`
+    position: relative;
     &:hover {
         a {
             color: #ffffff;
@@ -46,4 +47,20 @@ export const Text = styled.span`
    span {
        margin-right: 2px;
    }
+`;
+
+export const Notification = styled.span`
+    position: absolute;
+    top: -4px;
+    left: 50%;
+    height: 16px;
+    width: 16px;
+    line-height: 14px;
+    background-color: #d11124;
+    border: 2px solid #283e4a;
+    border-radius: 50px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 `;
