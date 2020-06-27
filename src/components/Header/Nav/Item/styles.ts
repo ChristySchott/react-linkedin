@@ -29,7 +29,7 @@ export const Icon = styled.span`
 svg {
     width: 24px; 
     height: 24px;
-    fill: #c7d1d8;
+    fill: #283e4a;
 }`;
 
 export const Text = styled.span`
@@ -44,6 +44,6 @@ export const Text = styled.span`
    align-items: center;
 
    span {
-       margin-right: 5px;
+       margin-right: 2px;
    }
 `;

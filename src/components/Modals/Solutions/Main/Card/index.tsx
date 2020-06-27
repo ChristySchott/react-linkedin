@@ -10,7 +10,7 @@ interface Props {
 
 const Card: React.FC<Props> = ({ title, children }) => (
     <Container>
-        <Title>{title}</Title>
+        <Title><span>{title}</span></Title>
         <Divider />
         <Content>{children}</Content>
     </Container>

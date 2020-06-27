@@ -15,6 +15,11 @@ export const Title = styled.div`
   font-weight: 600;
   color: rgba(0,0,0,.9);
   padding: 16px 24px;
+
+  span {
+    max-width: 235px;
+    display: flex;
+  }
 `;
 
 export const Divider = styled.div`
@@ -26,5 +31,5 @@ export const Divider = styled.div`
 `;
 
 export const Content = styled.div`
-  
+  padding-bottom: 15px;
 `;

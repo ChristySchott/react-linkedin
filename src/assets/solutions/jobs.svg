@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" data-supported-dps="40x40" width="40" height="40" focusable="false">
+  <defs>
+    <linearGradient id="app-jobs-posting-@1-a" x1="-6.68" y1="-1" x2="25.05" y2="26.36" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#665ed0"></stop>
+      <stop offset="1" stop-color="#0073b1"></stop>
+    </linearGradient>
+  </defs>
+  <path fill="none" stroke="#caedff" stroke-miterlimit="10" stroke-width="2" d="M20 8.67l-4 6.66M20 8.67l4 6.66"></path>
+  <rect x="8" y="14" width="24" height="16" rx="1" ry="1" fill="url(#app-jobs-posting-@1-a)"></rect>
+  <path fill="#65c3e8" d="M12 18h16v3H12z"></path>
+  <path fill="#33aada" d="M15 23h10v3H15z"></path>
+  <circle cx="20" cy="9" r="2" fill="#65c3e8"></circle>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" data-supported-dps="40x40" width="40" height="40" focusable="false">
+  <path fill-rule="evenodd" clip-rule="evenodd" fill="#0084bf" d="M7 27h26v2H7z"></path>
+  <path d="M31 32H9c-1.1 0-2-.9-2-2h26c0 1.1-.9 2-2 2z" fill-rule="evenodd" clip-rule="evenodd" fill="#33aada"></path>
+  <linearGradient id="app-salary-@1-a" gradientUnits="userSpaceOnUse" x1="21.826" y1="19.121" x2="16.728" y2="13.2">
+    <stop offset="0" stop-color="#1074af"></stop>
+    <stop offset="1" stop-color="#5251c0"></stop>
+  </linearGradient>
+  <circle cx="20" cy="17" r="5" fill-rule="evenodd" clip-rule="evenodd" fill="url(#app-salary-@1-a)"></circle>
+  <linearGradient id="app-salary-@1-b" gradientUnits="userSpaceOnUse" x1="25.44" y1="23.318" x2="10.254" y2="5.681">
+    <stop offset="0" stop-color="#1074af"></stop>
+    <stop offset="1" stop-color="#5251c0"></stop>
+  </linearGradient>
+  <path d="M32 8H8c-.6 0-1 .4-1 1v16c0 .6.4 1 1 1h24c.6 0 1-.4 1-1V9c0-.6-.4-1-1-1zm-1 12c-1.9.7-3.3 2.2-4 4H13c-.7-1.9-2.2-3.3-4-4v-6c1.9-.7 3.3-2.2 4-4h14c.7 1.9 2.2 3.3 4 4v6z" fill-rule="evenodd" clip-rule="evenodd" fill="url(#app-salary-@1-b)"></path>
+  <g clip-rule="evenodd">
+    <path d="M16.5 20.5c2 2 5.1 2 7.1 0s2-5.1 0-7.1l-7.1 7.1z" fill-rule="evenodd" fill="#0084bf"></path>
+    <path fill="none" d="M20 9.929l7.071 7.07L20 24.072 12.929 17z"></path>
+  </g>
+</svg>

@@ -1,8 +1,9 @@
 import styled from 'styled-components';
 
 const Container = styled.div`
-  img {
+  svg {
       width: 34px;
+      height: 34px;
   }
 `;
 

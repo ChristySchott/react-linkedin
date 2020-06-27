@@ -18,6 +18,14 @@ export const NavMain = styled.ul<Props>`
     fill: #ffffff;
   }
 
+  li:nth-of-type(7) {
+    border-left: 1px solid #5c6f7c;
+
+    svg {
+      fill: #ffffff;
+    }
+  }
+
   li:nth-of-type(${({ active }) => active}) {
     a::after {
        display: block;
@@ -27,7 +35,14 @@ export const NavMain = styled.ul<Props>`
        left: 0;
        bottom: -6px;
        border-bottom: 2px solid #fff;
+       
    }
+    a {
+      color: #ffffff;
+    }
+    svg {
+      fill: #ffffff;
+    }
   }
 
 `;
