@@ -18,6 +18,8 @@ const Nav: React.FC = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [isOpenSolution, setIsOpenSolution] = useState(false);
 
+    const [active, setActive] = useState(1);
+
     function toggleModal(event: MouseEvent) {
         event.preventDefault();
         setIsOpen(!isOpen);
@@ -29,39 +31,27 @@ const Nav: React.FC = () => {
     }
 
     return (
-        <ModalProvider backgroundComponent={ModalBackground}>
-            <Container>
-                <NavMain>
-                    <Item icon={<ReactHome />} text="Início" />
-                    <Item icon={<ReactNetwork />} text="Minha rede" />
-                    <Item icon={<ReactJobs />} text="Vagas" />
-                    <Item icon={<ReactMessages />} text="Mensagens" />
-                    <Item icon={<ReactNotifications />} text="Notificações" />
+        <Container>
+            <ModalProvider backgroundComponent={ModalBackground}>
+                <NavMain active={active}>
+                    <Item path="/" icon={<ReactHome />} text="Início" onClick={() => setActive(1)} />
+                    <Item path="/network" icon={<ReactNetwork />} text="Minha rede" onClick={() => setActive(2)} />
+                    <Item path="/jobs" icon={<ReactJobs />} text="Vagas" onClick={() => setActive(3)} />
+                    <Item path="/messages" icon={<ReactMessages />} text="Mensagens" onClick={() => setActive(4)} />
+                    <Item path="/notifications" icon={<ReactNotifications />} text="Notificações" onClick={() => setActive(5)} />
                     <Item icon={<ReactUser />} text="Eu" drop onClick={toggleModal} />
                     <Item icon={<BsFillGrid3X3GapFill size={18} />} text="Soluções" drop onClick={toggleModalSolution} />
                 </NavMain>
                 <ModalUser isOpen={isOpen} onBackgroundClick={toggleModal}>
-                    <select>
-                        <option value="0">Selecione um fornecedor</option>
-                        <option value="CEEE">CEEE</option>
-                        <option value="Gandalf">Gandalf</option>
-                        <option value="Cadê o chinelo">Cadê o chinelo</option>
-                    </select>
-                    <button type="button" onClick={toggleModal}>Fechar</button>
+                    <h2>Oi</h2>
                 </ModalUser>
                 <ModalProvider>
                     <ModalSolution isOpen={isOpenSolution} onBackgroundClick={toggleModalSolution}>
-                        <select>
-                            <option value="0">Selecione um fornecedor</option>
-                            <option value="CEEE">CEEE</option>
-                            <option value="Gandalf">Gandalf</option>
-                            <option value="Cadê o chinelo">Cadê o chinelo</option>
-                        </select>
-                        <button type="button" onClick={toggleModal}>Fechar</button>
+                        <h2>Oi</h2>
                     </ModalSolution>
                 </ModalProvider>
-            </Container>
-        </ModalProvider>
+            </ModalProvider>
+        </Container>
     );
 };
 

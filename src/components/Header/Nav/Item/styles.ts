@@ -1,40 +1,27 @@
 import styled from 'styled-components';
 
 export const Container = styled.li`
-    color: #c7d1d8;
+    &:hover {
+        a {
+            color: #ffffff;
+        }
+    }
+    
+    a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80px;
+        height: 44px;
+        position: relative;
+        text-decoration: none;
+        color: #c7d1d8;;
     
     &:hover {
-        color: #ffffff;
+        svg {
+        fill: #ffffff;
+        }
     }
-`;
-
-export const Content = styled.a`
-display: flex;
-flex-direction: column;
-align-items: center;
-width: 80px;
-height: 44px;
-position: relative;
-
-&:hover {
-    svg {
-    fill: #ffffff;
-    }
-
-    &::after {
-        display: block;
-        content: "";
-        position: absolute;
-        width: 100%;
-        left: 0;
-        bottom: -4px;
-        border-bottom: 2px solid #fff;
-    }
-}
-
-
-
-
 `;
 
 export const Icon = styled.span`
@@ -46,17 +33,17 @@ svg {
 }`;
 
 export const Text = styled.span`
-font-size: 1.2rem;
-line-height: 1.33333;
-display: block;
-font-weight: 400;
-line-height: 1.6rem;
-transition: color .3s;
+   font-size: 1.2rem;
+   line-height: 1.33333;
+   display: block;
+   font-weight: 400;
+   line-height: 1.6rem;
+   transition: color .3s;
 
-display: flex;
-align-items: center;
+   display: flex;
+   align-items: center;
 
-&:first-child {
-    margin-right: 10px;
-}
+   &:first-child {
+       margin-right: 10px;
+   }
 `;
