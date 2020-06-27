@@ -43,7 +43,7 @@ export const Text = styled.span`
    display: flex;
    align-items: center;
 
-   &:first-child {
-       margin-right: 10px;
+   span {
+       margin-right: 5px;
    }
 `;

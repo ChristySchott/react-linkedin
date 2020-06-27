@@ -32,16 +32,26 @@ export const NavMain = styled.ul<Props>`
 
 `;
 
+export const Premium = styled.li`
+  a {
+  font-size: 1.2rem;
+  line-height: 1.33333;
+  max-width: 125px;
+  color: #dccea4;
+  }
+`;
+
 export const ModalUser = Modal.styled`
   width: 288px;
-  height: 441px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  height: 443px;
+  padding-top: 20px;
   background: white;
   position: fixed;
-  top: 60px;
-  right: 355px;
+  top: 64px;
+  right: 305px;
+  border-radius: 2px;
+  border: none;
+  box-shadow: 0 0 0 1px rgba(0,0,0,.02), 0 3px 9px rgba(0,0,0,.2);
 `;
 
 export const ModalSolution = Modal.styled`
@@ -50,7 +60,7 @@ export const ModalSolution = Modal.styled`
   display: flex;
   align-items: center;
   justify-content: center;
-  background: white;
+  background-color: #f3f6f8;
   position: fixed;
   top: 56px;
   right: 0;

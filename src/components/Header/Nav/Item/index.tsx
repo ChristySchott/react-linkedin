@@ -11,7 +11,7 @@ import {
 } from './styles';
 
 interface Props {
-    icon: ReactNode;
+    icon?: ReactNode;
     text: string;
     drop?: boolean;
     onClick?: any;
@@ -25,7 +25,7 @@ const Item: React.FC<Props> = ({
             <Link to={path} onClick={onClick}>
                 <Icon>{icon}</Icon>
                 <Text>
-                    {text}
+                    <span>{text}</span>
                     {drop ? <AiFillCaretDown size={16} /> : ''}
                 </Text>
             </Link>
