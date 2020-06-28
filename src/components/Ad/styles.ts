@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  height: 50px;
+  height: 55px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,12 +20,18 @@ export const Text = styled.a`
     font-size: 1.4rem;
     font-weight: 600;
     line-height: 16px;
-    text-decoration: underline;
     color: #434649;
+
+    &:hover {
+        text-decoration: underline;
+    }
+
+    &:hover strong {
+        text-decoration: underline solid #0084bf;
+    }
 
     strong {
         color: #0084bf;
-        text-decoration: underline solid #0084bf;
     }
 `;
 

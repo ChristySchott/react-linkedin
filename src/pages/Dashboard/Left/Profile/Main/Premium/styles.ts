@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    margin-top: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 `;
 
 export const Tools = styled.h3`
@@ -22,5 +23,7 @@ export const CTA = styled.div`
     span {
         margin-left: 5px;
         color: rgba(0,0,0,.9);
+        font-size: 1.2rem;
+        line-height: 1.33333;
     }
 `;

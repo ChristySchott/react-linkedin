@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     position: relative;
+    cursor: pointer;
 `;
 
 export const Cover = styled.div`
@@ -11,8 +12,8 @@ export const Cover = styled.div`
 `;
 
 export const User = styled.div`
-    height: 60px;
-    width: 60px;
+    height: 65px;
+    width: 65px;
     border-radius: 50%;
     border: 2px solid #fff;
     box-shadow: inset 0 1.5px 3px 0 rgba(0,0,0,.15), 0 1.5px 3px 0 rgba(0,0,0,.15);
@@ -20,7 +21,7 @@ export const User = styled.div`
     overflow: hidden;
 
     position: absolute;
-    bottom: -27px;
+    bottom: -30px;
     left: 50%;
     transform: translateX(-50%);
 

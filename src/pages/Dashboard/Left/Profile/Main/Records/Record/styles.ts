@@ -8,6 +8,7 @@ export const Container = styled.div`
     font-size: 1.2rem;
     line-height: 1.33333;
     font-weight: 500;
+    margin-bottom: 5px; 
 `;
 
 export const Text = styled.span`
