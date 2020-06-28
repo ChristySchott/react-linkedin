@@ -28,6 +28,8 @@ export default createGlobalStyle`
 
   button {
     cursor: pointer;
+    border:none;
+    outline: none;
   }
 
   input, button {
