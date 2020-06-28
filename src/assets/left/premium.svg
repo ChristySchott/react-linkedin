@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" width="24" height="24" focusable="false">
+  <defs>
+    <clipPath id="ui-premium-app-large-a">
+      <rect x="2" y="2" width="20" height="20" rx="2.5" ry="2.5" fill="none"></rect>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#ui-premium-app-large-a)">
+    <path fill="#c8b476" d="M2 2l20 20V2H2z"></path>
+    <path fill="#b29a53" d="M22 22L2 2v20h20z"></path>
+  </g>
+</svg>

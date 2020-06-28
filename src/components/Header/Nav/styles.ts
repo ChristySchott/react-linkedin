@@ -71,6 +71,10 @@ export const Premium = styled.li`
   max-width: 125px;
   color: #dccea4;
   }
+
+  a:hover {
+    text-decoration: underline solid #dccea4;
+  }
 `;
 
 export const ModalUser = Modal.styled`

@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Container, User, Profile } from './styles';
-import Logo from './Logo';
+import Logo from './Photo';
 import Info from './Info';
 import CTA from './CTA';
 
