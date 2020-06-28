@@ -25,5 +25,7 @@ export const CTA = styled.div`
         color: rgba(0,0,0,.9);
         font-size: 1.2rem;
         line-height: 1.33333;
+
+        margin-top: 1px;
     }
 `;

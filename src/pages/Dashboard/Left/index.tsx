@@ -2,13 +2,13 @@ import React from 'react';
 import Profile from './Profile';
 import Social from './Social';
 
-// import { Container } from './styles';
+import Container from './styles';
 
 const Left: React.FC = () => (
-    <div>
+    <Container>
         <Profile />
         <Social />
-    </div>
+    </Container>
 );
 
 export default Left;
