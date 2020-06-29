@@ -16,10 +16,10 @@ const routes: React.FC = () => (
     <Switch>
       <Container>
         <Route path="/" exact component={Dashboard} />
-        <Route path="/network" exact component={Network} />
-        <Route path="/jobs" exact component={Jobs} />
-        <Route path="/messages" exact component={Messages} />
-        <Route path="/notifications" exact component={Notifications} />
+        <Route path="/network" component={Network} />
+        <Route path="/jobs" component={Jobs} />
+        <Route path="/messages" component={Messages} />
+        <Route path="/notifications" component={Notifications} />
         <Route path="/profile" component={Profile} />
       </Container>
     </Switch>

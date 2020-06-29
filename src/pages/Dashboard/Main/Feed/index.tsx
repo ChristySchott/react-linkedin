@@ -14,7 +14,7 @@ const Feed: React.FC = () => (
     <Container>
         <Category />
         <Post
-            name="Elisabeth Lovelace"
+            name="Ada Lovelace"
             job="Front-end Developer | Software Engineer | Web Developer"
             date="8 h"
             userPhoto={<UserOne />}
@@ -31,7 +31,7 @@ const Feed: React.FC = () => (
             alt="Two person using MacBooks"
         />
         <Post
-            name="Elisabeth Lovelace"
+            name="Hermione Granger"
             job="Software Developer at Any | Computer Engineer"
             date="1 d"
             userPhoto={<UserThree />}
