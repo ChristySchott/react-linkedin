@@ -19,6 +19,7 @@
     "@types/redux-devtools-extension": "^2.13.2",
     "@types/styled-components": "^5.1.0",
     "@types/styled-react-modal": "^1.2.0",
+    "emoji-picker-react": "^3.2.1",
     "react": "^16.13.1",
     "react-collapsible": "^2.8.0",
     "react-dom": "^16.13.1",

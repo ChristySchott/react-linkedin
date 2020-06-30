@@ -4,9 +4,13 @@ import Footer from './Footer';
 
 import Container from './styles';
 
-const Publish: React.FC = () => (
+interface Props {
+    banner?: boolean;
+}
+
+const Publish: React.FC<Props> = ({ banner = false }) => (
     <Container>
-        <Promoted />
+        <Promoted banner={banner} />
         <Footer />
     </Container>
 );
