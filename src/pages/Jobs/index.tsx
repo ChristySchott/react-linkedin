@@ -1,16 +1,13 @@
 import React from 'react';
 
-import Publish from 'components/Publish';
-import { Container, Main, Aside } from './styles';
+import Container from './styles';
+import Header from './Header';
+import Main from './Main';
 
 const Jobs: React.FC = () => (
     <Container>
-        <Main>
-            Oi
-        </Main>
-        <Aside>
-            <Publish />
-        </Aside>
+        <Header />
+        <Main />
     </Container>
 );
 

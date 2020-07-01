@@ -2,10 +2,15 @@ import React from 'react';
 
 import Container from './styles';
 
-const Wrapper: React.FC = ({
-    children,
+interface Props {
+    margin?: boolean;
+    top?: boolean;
+}
+
+const Wrapper: React.FC<Props> = ({
+    children, margin = false, top = false
 }) => (
-        <Container>
+        <Container margin={margin} top={top}>
             {children}
         </Container>
     );

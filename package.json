@@ -20,6 +20,7 @@
     "@types/styled-components": "^5.1.0",
     "@types/styled-react-modal": "^1.2.0",
     "emoji-picker-react": "^3.2.1",
+    "pure-react-carousel": "^1.27.1",
     "react": "^16.13.1",
     "react-collapsible": "^2.8.0",
     "react-dom": "^16.13.1",

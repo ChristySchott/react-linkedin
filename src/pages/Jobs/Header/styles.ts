@@ -1,8 +1,7 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
-    margin-top: 70px;
-
+const Container = styled.div`
+  
 `;
 
 export default Container;
