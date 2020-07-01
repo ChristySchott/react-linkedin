@@ -1,23 +1,24 @@
 import React from 'react';
 
-import Publish from 'components/Publish';
 import Ad from 'components/Ad';
 import {
-    WrapperAd, Container, Main, Aside,
+  WrapperAd, Container, Main, Aside,
 } from './styles';
+import MyNetwork from './MyNetwork';
+import Content from './Content';
 
 const Network: React.FC = () => (
-    <WrapperAd>
-        <Ad />
-        <Container>
-            <Aside>
-                <Publish banner />
-            </Aside>
-            <Main>
-                Oi
-            </Main>
-        </Container>
-    </WrapperAd>
+  <WrapperAd>
+    <Ad />
+    <Container>
+      <Aside>
+        <MyNetwork />
+      </Aside>
+      <Main>
+        <Content />
+      </Main>
+    </Container>
+  </WrapperAd>
 );
 
 export default Network;

@@ -11,4 +11,6 @@ export const Container = styled.div`
 
 export const Image = styled.div`
   cursor: pointer;
+  display: flex;
+  justify-content: center;
 `;

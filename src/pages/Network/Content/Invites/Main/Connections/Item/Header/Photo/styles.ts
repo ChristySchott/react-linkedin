@@ -1,15 +1,23 @@
 import styled from 'styled-components';
 
+interface Props {
+    color: string;
+}
+
 export const Container = styled.div`
     position: relative;
     cursor: pointer;
+    min-width: 180px;
+    width: 180px;
 `;
 
-export const Cover = styled.div`
-    background-image: url(https://media-exp1.licdn.com/dms/image/C4D16AQGpmU8uxMw-EQ/profile-displaybackgroundimage-shrink_200_800/0?e=1598486400&v=beta&t=u_-X3p9-M6FU3gCq5IZ5DNWrslOUINAi7HsDmwWthB4);
-    width: 100%;
-    height: 54px;
-    background-size: 100%;
+export const Cover = styled.div<Props>`
+    background-color: ${({ color }) => color};
+    width: 180px;
+    height: 62px;
+    background-repeat: no-repeat;
+    background-size: 186px;
+    overflow: hidden;
 `;
 
 export const User = styled.div`
@@ -27,7 +35,7 @@ export const User = styled.div`
     transform: translateX(-50%);
 
     svg{
-        width: 108%;
-        height: 123%;
+        width: 65px;
+        height: 65px;
     }
 `;

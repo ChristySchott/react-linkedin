@@ -16,5 +16,5 @@ export const Main = styled.div`
 
 export const Aside = styled.aside`
     width: 312px;
-    margin-left: 24px;
+    margin-right: 24px;
 `;

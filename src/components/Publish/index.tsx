@@ -5,14 +5,14 @@ import Footer from './Footer';
 import Container from './styles';
 
 interface Props {
-    banner?: boolean;
+  banner?: boolean;
 }
 
 const Publish: React.FC<Props> = ({ banner = false }) => (
-    <Container>
-        <Promoted banner={banner} />
-        <Footer />
-    </Container>
+  <Container>
+    <Promoted banner={banner} />
+    <Footer />
+  </Container>
 );
 
 export default Publish;
