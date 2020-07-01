@@ -4,7 +4,7 @@ export const Menu = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 15px;
+    padding: 5px 15px;
 `;
 
 export const Title = styled.h2`
@@ -20,7 +20,6 @@ export const Buttons = styled.div`
 `;
 
 export const Alert = styled.button`
-    margin-top: 10px;
     width: 138px;
     height: 34px;
     transition-timing-function: cubic-bezier(.4,0,.2,1);
@@ -44,7 +43,6 @@ export const Alert = styled.button`
 
     span {
         font-size: 1.5rem;
-        min-height: 3.2rem;
         line-height: 2rem;
         color: #0073b1;
     }

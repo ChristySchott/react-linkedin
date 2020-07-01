@@ -42,7 +42,7 @@ export const Inputs = styled.div`
     }
 `;
 
-export const Button = styled.div`
+export const Button = styled.button`
     transition-timing-function: cubic-bezier(.4,0,.2,1);
     transition-duration: 167ms;
     align-items: center;
