@@ -19,9 +19,10 @@ export const Title = styled.h2`
 export const Icon = styled.div`
     margin-right: 10px;
     height: 32px;
-    svg {
+    img {
         width: 32px;
         height: 32px;
+        border-radius: 50%;
     }
 `;
 

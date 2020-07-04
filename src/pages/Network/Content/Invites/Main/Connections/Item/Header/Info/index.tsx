@@ -9,10 +9,11 @@ import {
 interface Props {
     name: string;
     job: string;
+    padding?: boolean
 }
 
-const Info: React.FC<Props> = ({ name, job }) => (
-    <Container>
+const Info: React.FC<Props> = ({ name, job, padding = false }) => (
+    <Container padding={padding}>
         <Link to="/profile">
             <BoxName>
                 <Name>{name}</Name>

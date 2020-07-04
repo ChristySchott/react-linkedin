@@ -26,8 +26,7 @@ export const User = styled.div`
     left: 50%;
     transform: translateX(-50%);
 
-    svg{
-        width: 108%;
-        height: 123%;
+    img {
+        width: 68px;
     }
 `;

@@ -1,10 +1,6 @@
 /* eslint-disable max-len */
 import React from 'react';
 
-import { ReactComponent as UserOne } from 'assets/main/one.svg';
-import { ReactComponent as UserTwo } from 'assets/main/two.svg';
-import { ReactComponent as UserThree } from 'assets/main/three.svg';
-import { ReactComponent as UserFour } from 'assets/main/four.svg';
 import check from 'assets/notifications/check.png';
 import diary from 'assets/notifications/diary.png';
 
@@ -19,13 +15,13 @@ const Notifications: React.FC = () => (
         <Box title="Recentes">
             <Item
                 image={
-                    <Author image={<UserOne />} />
+                    <Author image="https://media-exp1.licdn.com/dms/image/C4D03AQE0wdDwf9OjRg/profile-displayphoto-shrink_100_100/0?e=1599091200&v=beta&t=AwPyqnkwSGX9hPl5rbgtT11o17btCDjJv3AE73GirIw" />
                 }
                 activity={(
                     <span>
                         Ada Lovelace
                         <strong> compartilhou uma publicação:</strong>
-                        A dedicação sempre nos rende frutos. É satisfatório receber este certificado! Que continuemos a ser melhores a cada oportunidade.
+                        A dedicação sempre nos rende frutos. É satisfatório receber este certificado! Que continuemos a melhorar em cada oportunidade.
                     </span>
                 )}
                 time="1 d"
@@ -64,7 +60,7 @@ const Notifications: React.FC = () => (
             />
             <Item
                 image={
-                    <Author image={<UserTwo />} />
+                    <Author image="https://media-exp1.licdn.com/dms/image/C4E03AQGAY1AOKuMXWQ/profile-displayphoto-shrink_100_100/0?e=1599091200&v=beta&t=Z9-S_JtSgNaa2Dll0_54mh7UT6cM2RowRiul_cR5igE" />
                 }
                 activity={(
                     <span>
@@ -91,7 +87,7 @@ const Notifications: React.FC = () => (
             />
             <Item
                 image={
-                    <Author image={<UserThree />} />
+                    <Author image="https://media-exp1.licdn.com/dms/image/C4E03AQHlmk-8x3UX5g/profile-displayphoto-shrink_100_100/0?e=1599091200&v=beta&t=NH92CwaNibDegoAiaS1W8NzvbbTcA_uOSrnPNG0-k3c" />
                 }
                 activity={(
                     <Template
@@ -109,7 +105,7 @@ const Notifications: React.FC = () => (
             />
             <Item
                 image={
-                    <Author image={<UserFour />} />
+                    <Author image="https://media-exp1.licdn.com/dms/image/C4E03AQHG3UhKtUcsgg/profile-displayphoto-shrink_100_100/0?e=1599091200&v=beta&t=8WmUj_tLCa4dHeVUXKeF0b7jRH68MLY9zrhVzpS5TdY" />
                 }
                 activity={(
                     <Template
@@ -149,7 +145,7 @@ const Notifications: React.FC = () => (
             />
             <Item
                 image={
-                    <Author image={<UserTwo />} />
+                    <Author image="https://media-exp1.licdn.com/dms/image/C4E03AQFdewlbvEN9TQ/profile-displayphoto-shrink_100_100/0?e=1599091200&v=beta&t=HklGHdNRFWgxnvlCsZbfSYJrbLedX1l_35snon6HTPw" />
                 }
                 activity={(
                     <span>
@@ -174,7 +170,7 @@ const Notifications: React.FC = () => (
             />
             <Item
                 image={
-                    <Author image={<UserOne />} />
+                    <Author image="https://media-exp1.licdn.com/dms/image/C4D03AQGCU5VVwWe9XA/profile-displayphoto-shrink_100_100/0?e=1599091200&v=beta&t=37wXRd1I9xv7VZfjPn_MhPaplCqtHF_wgTqE8RcXvXQ" />
                 }
                 activity={(
                     <span>
@@ -187,7 +183,7 @@ const Notifications: React.FC = () => (
             />
             <Item
                 image={
-                    <Author image={<UserThree />} />
+                    <Author image="https://media-exp1.licdn.com/dms/image/C4D03AQGe06a45Wa0tQ/profile-displayphoto-shrink_100_100/0?e=1599091200&v=beta&t=134rkB1saZkiXdhC4bjjbxDGyWPZtZvcWCphgl26Ot8" />
                 }
                 activity={(
                     <Template
@@ -218,7 +214,7 @@ const Notifications: React.FC = () => (
             />
             <Item
                 image={
-                    <Author image={<UserFour />} />
+                    <Author image="https://media-exp1.licdn.com/dms/image/C4E03AQHd9gtJ0rAiFA/profile-displayphoto-shrink_100_100/0?e=1599091200&v=beta&t=hPpMioakGvLl5RGJW8mdxxSImC3gbJJrWsSJBV2xqRw" />
                 }
                 activity={(
                     <Template

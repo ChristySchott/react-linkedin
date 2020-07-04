@@ -16,9 +16,10 @@ export const BoxImage = styled.div<Props>`
     div:first-child {
         height: ${({ big }) => (big ? '72px' : '48px')};
         
-        svg {
+        img {
             width: ${({ big }) => (big ? '72px' : '48px')};
             height: ${({ big }) => (big ? '72px' : '48px')};
+            border-radius: 50%;
         }
     }
 

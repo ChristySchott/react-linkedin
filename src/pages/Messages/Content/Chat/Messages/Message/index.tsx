@@ -5,7 +5,7 @@ import {
 } from './styles';
 
 interface Props {
-    image: ReactNode;
+    image: string;
     content: ReactNode;
     name: string;
     time: string;
@@ -15,7 +15,7 @@ const Message: React.FC<Props> = ({
     image, name, time, content,
 }) => (
         <Container>
-            <Box>{image}</Box>
+            <Box><img src={image} alt="" /></Box>
             <Text>
                 <Infos>
                     <Name>{name}</Name>

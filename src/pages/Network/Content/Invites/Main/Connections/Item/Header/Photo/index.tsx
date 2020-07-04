@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import React from 'react';
 
 import { Link } from 'react-router-dom';
 
@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import { Container, Cover, User } from './styles';
 
 interface Props {
-    photo: ReactNode;
+    photo: string;
     color: string;
 }
 
@@ -14,7 +14,7 @@ const Photo: React.FC<Props> = ({ photo, color }) => (
     <Link to="/profile">
         <Container>
             <Cover color={color} />
-            <User>{photo}</User>
+            <User><img src={photo} alt="" /></User>
         </Container>
     </Link>
 );

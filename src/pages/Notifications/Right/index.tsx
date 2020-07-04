@@ -7,7 +7,7 @@ import Container from './styles';
 const Right: React.FC = () => (
     <Container>
         <Sticky top={60}>
-            <Publish />
+            <Publish banner />
         </Sticky>
     </Container>
 );

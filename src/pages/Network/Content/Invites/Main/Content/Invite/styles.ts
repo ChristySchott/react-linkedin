@@ -40,7 +40,7 @@ export const Image = styled.div`
     border-radius: 50%;
     overflow: hidden;
 
-    svg {
+    img {
         width: 72px;
         height: 72px;
     }

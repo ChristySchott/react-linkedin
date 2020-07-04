@@ -36,7 +36,6 @@ export const NavMain = styled.ul<Props>`
        left: 0;
        bottom: -6px;
        border-bottom: 2px solid #fff;
-       
    }
     a {
       color: #ffffff;

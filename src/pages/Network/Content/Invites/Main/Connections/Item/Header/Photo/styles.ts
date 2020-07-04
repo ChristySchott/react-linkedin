@@ -21,8 +21,8 @@ export const Cover = styled.div<Props>`
 `;
 
 export const User = styled.div`
-    height: 65px;
-    width: 65px;
+    height: 104px;
+    width: 104px;
     border-radius: 50%;
     border: 2px solid #fff;
     box-shadow: inset 0 1.5px 3px 0 rgba(0,0,0,.15), 0 1.5px 3px 0 rgba(0,0,0,.15);
@@ -30,12 +30,11 @@ export const User = styled.div`
     overflow: hidden;
 
     position: absolute;
-    bottom: -30px;
+    bottom: -55px;
     left: 50%;
     transform: translateX(-50%);
 
-    svg{
-        width: 65px;
-        height: 65px;
+    img {
+        width: 104px;
     }
 `;

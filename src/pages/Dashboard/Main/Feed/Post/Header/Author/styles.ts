@@ -17,7 +17,7 @@ export const Image = styled.div`
     height: 48px;
     overflow: hidden;
 
-    svg {
+    img {
         width: 48px;
         height: 48px;
     }

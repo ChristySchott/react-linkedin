@@ -1,13 +1,18 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
-  padding-top: 45px;
+interface Props {
+  padding: boolean;
+}
+
+export const Container = styled.div<Props>`
+  padding-top: ${({ padding }) => padding ? '45px' : '60px'};
   width: 180px;
   margin: 0 auto;
+  margin-top: 20px;
 `;
 
 export const BoxName = styled.div`
-  height: 24px;
+  height: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,13 +20,13 @@ export const BoxName = styled.div`
 
 export const Name = styled.h4`
     font-size: 1.5rem;
-    line-height: 1.5;
+    line-height: 1.4;
     font-weight: 600;
     color: rgba(0,0,0,.9);
 `;
 
 export const BoxJob = styled.div`
-    height: 30px;
+    height: 26px;
     display: flex;
     align-items: center;
     justify-content: center;

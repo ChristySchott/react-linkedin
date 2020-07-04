@@ -1,6 +1,6 @@
 /* eslint-disable indent */
 /* eslint-disable react/jsx-indent */
-import React, { ReactNode } from 'react';
+import React from 'react';
 
 import { Link } from 'react-router-dom';
 
@@ -11,7 +11,7 @@ import {
 } from './styles';
 
 interface Props {
-    icon?: ReactNode;
+    icon?: any;
     text: string;
     drop?: boolean;
     onClick?: any;

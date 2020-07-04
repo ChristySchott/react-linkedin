@@ -5,18 +5,20 @@ import {
 } from './styles';
 
 interface Props {
-    image: ReactNode;
+    image?: string;
+    online?: ReactNode;
     name: string;
     date: string;
     message: string;
 }
 
 const Chat: React.FC<Props> = ({
-    image, name, date, message,
+    image, name, date, message, online
 }) => (
         <Container>
             <BoxImage>
-                {image}
+                {online}
+                <img src={image} alt="" />
             </BoxImage>
             <Text>
                 <Infos>

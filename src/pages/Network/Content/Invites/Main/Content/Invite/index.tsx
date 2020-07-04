@@ -1,9 +1,9 @@
-import React, { ReactNode } from 'react';
+import React from 'react';
 
 import { Container, Content, User, BoxImage, Image, Text, Name, Job, Connections, Actions, Ignore, Accept } from './styles';
 
 interface Props {
-    image: ReactNode;
+    image: string;
     name: string;
     job: string;
     connection?: boolean;
@@ -15,7 +15,7 @@ const Invite: React.FC<Props> = ({ image, name, job, connection = false }) => {
             <User>
                 <BoxImage>
                     <Image>
-                        {image}
+                        <img src={image} alt="" />
                     </Image>
                 </BoxImage>
                 <Text>

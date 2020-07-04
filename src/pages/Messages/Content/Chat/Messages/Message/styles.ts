@@ -13,9 +13,10 @@ export const Box = styled.div`
     display: flex;
     align-items: flex-start;
     
-    svg {
+    img {
         width: 32px;
         height: 32px;
+        border-radius: 50%;
     }
 `;
 

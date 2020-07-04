@@ -17,9 +17,10 @@ export const BoxImage = styled.div`
     width: 56px;
     height: 56px;
     
-    svg {
+    img {
         width: 50px;
         height: 50px;
+        border-radius: 50%;
     }
 `;
 

@@ -10,7 +10,7 @@ interface Props {
     name: string;
     job: string;
     date: string;
-    image: any;
+    image: string;
     active?: boolean;
 }
 
@@ -19,7 +19,7 @@ const Author: React.FC<Props> = ({
 }) => (
         <Container>
             <BoxImage>
-                <Image>{image}</Image>
+                <Image><img src={image} alt="" /></Image>
                 {active && <Connection />}
             </BoxImage>
             <Text>

@@ -9,7 +9,7 @@ const Main: React.FC = () => (
     <Container>
         <Trends />
         <Sticky top={60}>
-            <Publish />
+            <Publish banner />
         </Sticky>
     </Container>
 );

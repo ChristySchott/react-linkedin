@@ -31,7 +31,16 @@ svg {
     width: 24px; 
     height: 24px;
     fill: #283e4a;
-}`;
+}
+
+img {
+    width: 24px;
+    height: 24px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+`;
 
 export const Text = styled.span`
    font-size: 1.2rem;

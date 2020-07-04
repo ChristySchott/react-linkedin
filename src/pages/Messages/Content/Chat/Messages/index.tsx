@@ -1,7 +1,5 @@
 import React from 'react';
 
-import { ReactComponent as UserOne } from 'assets/main/one.svg';
-import { ReactComponent as UserMe } from 'assets/profile.svg';
 import Container from './styles';
 import Profile from './Profile';
 import Day from './Day';
@@ -12,7 +10,7 @@ const Messages: React.FC = () => (
         <Profile />
         <Day day="Quarta-feira" />
         <Message
-            image={<UserOne />}
+            image="https://media-exp1.licdn.com/dms/image/C4E03AQGY6yMDkDP1ng/profile-displayphoto-shrink_100_100/0?e=1599091200&v=beta&t=7bBgbv04teMUzBLeja1x73Znh3V4uJ7ir5IyX_XG7cU"
             name="Ada Lovelace"
             time="14:22"
             content={(
@@ -28,7 +26,7 @@ const Messages: React.FC = () => (
             )}
         />
         <Message
-            image={<UserMe />}
+            image="https://media-exp1.licdn.com/dms/image/C4E03AQGArBZoTlAL5Q/profile-displayphoto-shrink_100_100/0?e=1599091200&v=beta&t=8TgATuNtdQS00Pg0e5Ci1l7QOrwLHp1y0UlaOYPlq5I"
             name="Christy Hauschild Schott"
             time="16:27"
             content={(
@@ -42,7 +40,7 @@ const Messages: React.FC = () => (
         />
         <Day day="Sexta-feira" />
         <Message
-            image={<UserOne />}
+            image="https://media-exp1.licdn.com/dms/image/C4E03AQGY6yMDkDP1ng/profile-displayphoto-shrink_100_100/0?e=1599091200&v=beta&t=7bBgbv04teMUzBLeja1x73Znh3V4uJ7ir5IyX_XG7cU"
             name="Ada Lovelace"
             time="21:22"
             content={(

@@ -1,4 +1,5 @@
 import React from 'react';
+import Sticky from 'react-stickynode';
 
 import Ad from 'components/Ad';
 import {
@@ -12,7 +13,9 @@ const Network: React.FC = () => (
     <Ad />
     <Container>
       <Aside>
-        <MyNetwork />
+        <Sticky top={60}>
+          <MyNetwork />
+        </Sticky>
       </Aside>
       <Main>
         <Content />

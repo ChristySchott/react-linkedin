@@ -8,6 +8,7 @@ import Item from './Item';
 import publish from 'assets/publish.jpg';
 
 interface Props {
+
   banner?: boolean;
 }
 
