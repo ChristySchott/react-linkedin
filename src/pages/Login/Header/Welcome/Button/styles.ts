@@ -16,18 +16,18 @@ export const Content = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
-`
+`;
 
 export const Text = styled.span`
     font-size: 2rem;
     line-height: 1.4;
     font-weight: 400;
     color: rgba(0,0,0,0.9);
-`
+`;
 
 export const Icon = styled.div`
     svg {
         width: 24px;
         height: 24px;
     }
-`
+`;

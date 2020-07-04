@@ -14,14 +14,17 @@ interface Props {
     padding?: boolean;
 }
 
-const Item: React.FC<Props> = ({ name, number, job, photo, color, padding = false }) =>
-    <Wrapper margin>
-        <Container>
-            <Content>
-                <Header name={name} job={job} photo={photo} color={color} padding={padding} />
-                <Footer number={number} />
-            </Content>
-        </Container>
-    </Wrapper>;
+const Item: React.FC<Props> = ({
+  name, number, job, photo, color, padding = false,
+}) => (
+  <Wrapper margin>
+    <Container>
+      <Content>
+        <Header name={name} job={job} photo={photo} color={color} padding={padding} />
+        <Footer number={number} />
+      </Content>
+    </Container>
+  </Wrapper>
+);
 
 export default Item;

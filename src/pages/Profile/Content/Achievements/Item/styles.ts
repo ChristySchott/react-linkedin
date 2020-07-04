@@ -11,7 +11,7 @@ export const Container = styled.div`
 
 export const Info = styled.div`
     display: flex;
-`
+`;
 
 export const Number = styled.div`
     width: 44px;
@@ -27,11 +27,11 @@ export const Number = styled.div`
         line-height: 1.25;
         font-weight: 400;
     }
-`
+`;
 
 export const Infos = styled.div`
     margin-left: 7px;
-`
+`;
 
 export const Name = styled.span`
     font-size: 1.5rem;
@@ -40,7 +40,7 @@ export const Name = styled.span`
     color: #0073b1;
     max-width: 600px;
     display: flex;
-`
+`;
 
 export const Resume = styled.span`
     font-size: 1.3rem;
@@ -48,7 +48,7 @@ export const Resume = styled.span`
     font-weight: 400;
     color: rgba(0,0,0,.9);
     display: block;
-`
+`;
 
 export const Icon = styled.button`
     border-radius: 50%;
@@ -71,6 +71,4 @@ export const Icon = styled.button`
     }
 
     margin-left: 8px;
-`
-
-
+`;

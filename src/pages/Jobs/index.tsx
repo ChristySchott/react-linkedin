@@ -5,10 +5,10 @@ import Header from './Header';
 import Main from './Main';
 
 const Jobs: React.FC = () => (
-    <Container>
-        <Header />
-        <Main />
-    </Container>
+  <Container>
+    <Header />
+    <Main />
+  </Container>
 );
 
 export default Jobs;

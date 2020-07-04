@@ -1,7 +1,7 @@
 import React, { ReactNode } from 'react';
 
 import {
-    Container, BoxImage, Infos, Text, Name, Date, Message,
+  Container, BoxImage, Text, Name, Message,
 } from './styles';
 
 interface Props {
@@ -13,20 +13,20 @@ interface Props {
 }
 
 const Chat: React.FC<Props> = ({
-    image, name, message, online
+  image, name, message, online,
 }) => (
-        <Container>
-            <BoxImage>
-                {online}
-                <img src={image} alt="" />
-            </BoxImage>
-            <Text>
-                <Name>{name}</Name>
-                <Message>
-                    <span>{message}</span>
-                </Message>
-            </Text>
-        </Container>
-    );
+  <Container>
+    <BoxImage>
+      {online}
+      <img src={image} alt="" />
+    </BoxImage>
+    <Text>
+      <Name>{name}</Name>
+      <Message>
+        <span>{message}</span>
+      </Message>
+    </Text>
+  </Container>
+);
 
 export default Chat;

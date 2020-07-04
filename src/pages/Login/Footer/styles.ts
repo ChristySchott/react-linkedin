@@ -9,14 +9,14 @@ export const Content = styled.div`
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-`
+`;
 
 export const Logo = styled.div`
     svg {
         width: 84px;
         height: 21px;
     }
-`
+`;
 
 export const Lists = styled.div`
     display: flex;
@@ -24,7 +24,7 @@ export const Lists = styled.div`
     justify-content: flex-end;
     width: 1044px;
     padding-left: 16px;
-`
+`;
 
 export const Item = styled.li`
     display: flex;
@@ -40,4 +40,4 @@ export const Item = styled.li`
         color: #006097;
         text-decoration: underline;
     }
-`
+`;

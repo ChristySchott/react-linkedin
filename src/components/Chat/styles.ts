@@ -27,21 +27,20 @@ export const Header = styled.div`
     border-bottom: 1px solid rgba(0,0,0,.15);
     border-radius: 2px 2px 0 0;
     cursor: pointer;
-`
+`;
 
 export const ContentHeader = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
-`
+`;
 
 export const Left = styled.div`
     width: 117px;
     display: flex;
     align-items: center;
-`
-
+`;
 
 export const User = styled.div`
     width: 32px;
@@ -82,7 +81,7 @@ export const Connection = styled.div`
 
 export const Title = styled.div`
     margin-left: 8px;
-`
+`;
 
 export const Text = styled.span`
     width: 72px;
@@ -90,12 +89,12 @@ export const Text = styled.span`
     line-height: 1.42857;
     font-weight: 400;
     color: #fff;
-`
+`;
 
 export const Right = styled.div`
     display: flex;
     align-items: center;
-`
+`;
 
 export const Edit = styled.button`
     width: 32px;
@@ -116,9 +115,9 @@ export const Edit = styled.button`
         height: 16px;
         color: #fff;
     }
-`
+`;
 
-export const More = styled(Edit)``
+export const More = styled(Edit)``;
 
 export const Expand = styled.div`
-`
+`;

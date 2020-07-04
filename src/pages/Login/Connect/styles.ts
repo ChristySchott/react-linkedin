@@ -19,18 +19,18 @@ export const Background = styled.div`
         width: 150%;
         height: 150%;
     }
-`
+`;
 
 export const Content = styled.div`
     width: 1128px;
     height: 268px;
     margin: 0 auto;
     background: none;
-`
+`;
 
 export const Title = styled.div`
     margin: 20px 0 40px;
-`
+`;
 
 export const Text = styled.h1`
     font-size: 5.6rem;
@@ -38,7 +38,7 @@ export const Text = styled.h1`
     color: #2977c9;
     font-weight: 200;
     line-height: 70px;
-`
+`;
 
 export const Button = styled.button`
     width: 130px;
@@ -52,4 +52,4 @@ export const Button = styled.button`
     align-items: center;
     justify-content: center;
     border-radius: 28px; 
-`
+`;

@@ -15,11 +15,11 @@ export const Content = styled.div`
     div:nth-child(1) {
         margin-right: 16px;
     }
-`
+`;
 
 export const Card = styled.div`
     width: 556px;
-`
+`;
 
 export const Image = styled.div`
     width: 300px;
@@ -31,12 +31,11 @@ export const Image = styled.div`
         margin: 0 72px 56px 0;
     }
 
-`
-
+`;
 
 export const Title = styled.div`
     margin-bottom: 40px;    
-`
+`;
 
 export const Text = styled.h1`
     font-size: 4.8rem;
@@ -49,7 +48,7 @@ export const Text = styled.h1`
 
     display: flex;
     max-width: 456px;
-`
+`;
 
 export const Button = styled.button`
     width: 305px;
@@ -71,13 +70,13 @@ export const Button = styled.button`
     &:hover {
         background-color: rgba(0,0,0,0.2);
     }
-`
+`;
 
 export const BoxInput = styled.div`
     position: relative;
     width: 360px;
     cursor: pointer;
-`
+`;
 
 export const Input = styled.input`
     width: 360px;
@@ -92,7 +91,7 @@ export const Input = styled.input`
     ::-webkit-input-placeholder {
         color: rgba(0,0,0,.9);
      }
-`
+`;
 
 export const Icon = styled.div`
     position: absolute;
@@ -106,4 +105,4 @@ export const Icon = styled.div`
         height: 24px;
         color: rgba(0,0,0,.6);
     }
-`
+`;

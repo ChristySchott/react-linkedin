@@ -12,11 +12,13 @@ interface Props {
     padding?: boolean;
 }
 
-const Header: React.FC<Props> = ({ name, job, photo, color, padding = false }) => (
-    <Container>
-        <Photo photo={photo} color={color} />
-        <Info name={name} job={job} padding={padding} />
-    </Container>
+const Header: React.FC<Props> = ({
+  name, job, photo, color, padding = false,
+}) => (
+  <Container>
+    <Photo photo={photo} color={color} />
+    <Info name={name} job={job} padding={padding} />
+  </Container>
 );
 
 export default Header;

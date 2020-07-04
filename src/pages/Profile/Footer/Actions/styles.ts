@@ -23,12 +23,12 @@ export const Image = styled.div`
         height: 24pxpx;
         color: #0073b1;
     }
-`
+`;
 
 export const Infos = styled.div`
     margin-left: 10px;
     margin-top: 4px;
-`
+`;
 
 export const Name = styled.span`
     font-size: 1.4rem;
@@ -47,11 +47,11 @@ export const Name = styled.span`
     }
     cursor: pointer;
 
-`
+`;
 
 export const NameBlue = styled(Name)`
     color: #0073b1;
-`
+`;
 
 export const Followers = styled.span`
     font-size: 1.3rem;
@@ -59,31 +59,31 @@ export const Followers = styled.span`
     font-weight: 400;
     color: rgba(0,0,0,.6);
     display: block;
-`
+`;
 
 export const Cards = styled.div`
     width: 282px;
-`
+`;
 
 export const Card = styled.div`
     height: 36px;
     margin-bottom: 16px;
-`
+`;
 
 export const Language = styled.div`
-`
+`;
 
 export const Label = styled.label`
     color: #5c6f7c;
     font-size: 1.2rem;
     line-height: 1.33333;
     font-weight: 400;
-`
+`;
 
 export const BoxInput = styled.div`
     position: relative;
     width: 282px;
-`
+`;
 
 export const Input = styled.input`
     width: 282px;
@@ -99,7 +99,7 @@ export const Input = styled.input`
     ::-webkit-input-placeholder {
         color: #0073b1;
      }
-`
+`;
 
 export const Icon = styled.div`
     position: absolute;
@@ -113,4 +113,4 @@ export const Icon = styled.div`
         height: 16px;
         color: rgba(0,0,0,.6);
     }
-`
+`;

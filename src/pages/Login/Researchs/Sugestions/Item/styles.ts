@@ -23,4 +23,4 @@ export const Text = styled.span`
     line-height: 1.4;
     font-weight: 500;
     color: rgba(0,0,0,0.6);
-`
+`;

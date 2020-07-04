@@ -10,5 +10,4 @@ export const Border = styled.div`
     margin-left: 90px;
     margin-top: -10px;
     margin-bottom: 10px;
-`
-
+`;

@@ -62,4 +62,4 @@ export const Alert = styled.button`
 
 export const Margin = styled.div`
     margin-left: 20px;
-`
+`;

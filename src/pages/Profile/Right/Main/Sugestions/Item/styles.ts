@@ -16,17 +16,17 @@ export const Image = styled.div`
         width: 56px;
         border-radius: 50%;
     }
-`
+`;
 
 export const Infos = styled.div`
     width: 160px;
-`
+`;
 
 export const Border = styled.div`
     display: flex;
     border-bottom: 1px solid #cfcfcf;
     padding: 3px 0 5px 8px;
-`
+`;
 
 export const Name = styled.span`
     font-size: 1.4rem;
@@ -39,7 +39,7 @@ export const Name = styled.span`
         color: rgba(0, 0, 0, .6);
         font-weight: 400;
     }
-`
+`;
 
 export const Job = styled.span`
     font-size: 1.3rem;
@@ -47,7 +47,7 @@ export const Job = styled.span`
     font-weight: 400;
     color: rgba(0,0,0,.9);
     display: block;
-`
+`;
 
 export const Icon = styled.button`
     width: 40px;
@@ -72,4 +72,4 @@ export const Icon = styled.button`
         height: 24px;
         color: rgba(0, 0, 0, .6);
     }
-`
+`;
