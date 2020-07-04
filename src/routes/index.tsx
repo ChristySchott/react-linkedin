@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 import Header from 'components/Header';
+import Chat from 'components/Chat';
 
 import Login from 'pages/Login';
 import Dashboard from 'pages/Dashboard';
@@ -18,7 +19,7 @@ const routes: React.FC = () => {
       <Switch>
         <Route path="/" exact component={Login} />
         <Container>
-          {window.location.pathname !== "/" && <Header />}
+          {window.location.pathname !== "/" && <> <Header /> <Chat /> </>}
           <Route path="/dashboard" exact component={Dashboard} />
           <Route path="/network" component={Network} />
           <Route path="/jobs" component={Jobs} />
