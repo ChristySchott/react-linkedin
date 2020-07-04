@@ -48,14 +48,6 @@
             }
         ],
         "react/prop-types": 0,
-        "linebreak-style": 0,
-        "react/jsx-indent": [
-            1,
-            4
-        ],
-        "indent": [
-            1,
-            4
-        ]
+        "quotes": 0
     }
 }

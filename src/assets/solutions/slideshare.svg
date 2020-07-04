@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" data-supported-dps="40x40" width="40" height="40" focusable="false">
+  <path d="M18 24.1h4.9c4.2 0 9.5-1 12.1-1.6V11c0-1.7-1.3-3-3-3H8c-1.7 0-3 1.3-3 3v11.5c2.6.6 7.9 1.6 12.1 1.6h.9z" fill-rule="evenodd" clip-rule="evenodd" fill="#caedff"></path>
+  <circle cx="13" cy="17" r="4" fill-rule="evenodd" clip-rule="evenodd" fill="#0091ca"></circle>
+  <linearGradient id="app-slideshare-@1-a" gradientUnits="userSpaceOnUse" x1="25.283" y1="11.515" x2="30.352" y2="27.707">
+    <stop offset="0" stop-color="#665ed0"></stop>
+    <stop offset="1" stop-color="#0073b1"></stop>
+  </linearGradient>
+  <circle cx="27" cy="17" r="4" fill-rule="evenodd" clip-rule="evenodd" fill="url(#app-slideshare-@1-a)"></circle>
+  <path fill="none" d="M0 0h40v40H0z"></path>
+  <path d="M37.4 25l-.6-2c-.2-.5-.7-.8-1.2-.7-1.9.4-6.5 1.4-10.7 1.7v4.9c0 .8-.4 1.4-1 1.8V33c0 .6.4 1 1 1h5c.6 0 1-.4 1-1v-5.7c2.4-.4 4.5-.7 5.7-1 .7-.1 1-.7.8-1.3z" fill="#2569b4"></path>
+  <path d="M22 24.1h-4.9c-4.6 0-10.6-1.2-12.8-1.7-.5-.1-1 .2-1.2.7l-.6 2c-.2.6.2 1.2.8 1.3 1.2.2 3.3.6 5.7 1V33c0 .6.4 1 1 1h5c.6 0 1-.4 1-1v-5h6c.6 0 1-.4 1-1v-1.9c0-.6-.4-1-1-1z" fill="#0091ca"></path>
+</svg>

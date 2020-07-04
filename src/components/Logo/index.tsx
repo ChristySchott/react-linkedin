@@ -1,8 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-import logo from 'assets/logo.png';
+import { ReactComponent as ReactLogo } from 'assets/logo.svg';
 import Container from './styles';
 
-const Logo: React.FC = () => <Container><img src={logo} alt="LinkedIn Logo" /></Container>;
+const Logo: React.FC = () => (
+    <Container>
+        <Link to="/">
+            <ReactLogo />
+        </Link>
+    </Container>
+);
 
 export default Logo;

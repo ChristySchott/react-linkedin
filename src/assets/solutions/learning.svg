@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" data-supported-dps="40x40" width="40" height="40" focusable="false">
+  <defs>
+    <linearGradient id="app-learning-@1-a" x1="7.18" y1="6.98" x2="13.8" y2="20.22" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#33aada"></stop>
+      <stop offset="1" stop-color="#0091ca"></stop>
+    </linearGradient>
+    <linearGradient id="app-learning-@1-b" x1="12.96" y1="-17.55" x2="27.9" y2="24.33" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#665ed0"></stop>
+      <stop offset="1" stop-color="#0073b1"></stop>
+    </linearGradient>
+  </defs>
+  <path d="M20 30H8a1 1 0 01-1-1V11a1 1 0 011-1h12v20z" fill="url(#app-learning-@1-a)"></path>
+  <path d="M20 10h12a1 1 0 011 1v18a1 1 0 01-1 1H20V10z" fill="url(#app-learning-@1-b)"></path>
+  <path fill="#33aada" d="M9 19h8v2H9zM9 23h8v2H9zM9 15h8v2H9z"></path>
+  <path fill="#006097" d="M23 19h8v2h-8zM23 23h8v2h-8zM23 15h8v2h-8z"></path>
+  <path d="M17.41 15.25l7.46 4.52a.27.27 0 010 .46l-7.46 4.52a.27.27 0 01-.41-.23v-9a.27.27 0 01.41-.27z" fill="#fff"></path>
+</svg>

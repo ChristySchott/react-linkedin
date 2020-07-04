@@ -8,12 +8,12 @@ export const Icon = styled.div`
   position: absolute;
   left: 5px;
   bottom: 3px;
-  color: green;
+  color: rgba(40,62,74,.75);
 `;
 
 export const Content = styled.input`
   width:280px;
-  height: 30px;
+  height: 34px;
   background: #E1E9EE;
   border-radius: 2px;
   padding: 0 8px 0 28px;

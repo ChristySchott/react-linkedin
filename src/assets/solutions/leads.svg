@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" data-supported-dps="40x40" width="40" height="40" focusable="false">
+  <defs>
+    <linearGradient id="app-sales-navigator-@1-a" x1="40.53" y1="-53.4" x2="20.23" y2="19.17" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#665ed0"></stop>
+      <stop offset="1" stop-color="#0073b1"></stop>
+    </linearGradient>
+  </defs>
+  <circle cx="20" cy="20" r="14" fill="url(#app-sales-navigator-@1-a)"></circle>
+  <path d="M17.17 17.17L27.42 12a.4.4 0 01.18 0 .39.39 0 01.4.39.42.42 0 010 .19l-5.17 10.25z" fill="#fff"></path>
+  <path d="M17.17 17.17L12 27.42a.42.42 0 000 .19.39.39 0 00.37.38.45.45 0 00.21 0l10.25-5.12z" fill="#98d8f4"></path>
+  <circle cx="20" cy="20" r="4" fill="#fff"></circle>
+  <circle cx="20" cy="20" r="2" fill="#0073b1"></circle>
+</svg>

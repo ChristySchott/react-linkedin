@@ -1,31 +1,36 @@
 /* eslint-disable indent */
 /* eslint-disable react/jsx-indent */
-import React, { ReactNode } from 'react';
+import React from 'react';
+
+import { Link } from 'react-router-dom';
 
 import { AiFillCaretDown } from 'react-icons/ai';
 
 import {
-    Container, Content, Icon, Text,
+    Container, Icon, Text, Notification,
 } from './styles';
 
 interface Props {
-    icon: ReactNode;
+    icon?: any;
     text: string;
     drop?: boolean;
     onClick?: any;
+    path?: string;
+    notification?: boolean,
 }
 
 const Item: React.FC<Props> = ({
-    icon, text, drop, onClick,
+    icon, text, drop, onClick, path = '', notification = false,
 }) => (
         <Container>
-            <Content onClick={onClick}>
+            <Link to={path} onClick={onClick}>
                 <Icon>{icon}</Icon>
+                {notification && <Notification>1</Notification>}
                 <Text>
-                    {text}
+                    <span>{text}</span>
                     {drop ? <AiFillCaretDown size={16} /> : ''}
                 </Text>
-            </Content>
+            </Link>
         </Container>
     );
 

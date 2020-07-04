@@ -28,6 +28,8 @@ export default createGlobalStyle`
 
   button {
     cursor: pointer;
+    border:none;
+    outline: none;
   }
 
   input, button {
@@ -39,4 +41,11 @@ export default createGlobalStyle`
     border: 0 none;
     outline: 0;
   } 
+
+  h5 {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-weight: 600;
+    color: rgba(0,0,0,.9);
+  }
 `;

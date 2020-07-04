@@ -1,40 +1,28 @@
 import styled from 'styled-components';
 
 export const Container = styled.li`
-    color: #c7d1d8;
+    position: relative;
+    &:hover {
+        a {
+            color: #ffffff;
+        }
+    }
+    
+    a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80px;
+        height: 44px;
+        position: relative;
+        text-decoration: none;
+        color: #c7d1d8;;
     
     &:hover {
-        color: #ffffff;
+        svg {
+        fill: #ffffff;
+        }
     }
-`;
-
-export const Content = styled.a`
-display: flex;
-flex-direction: column;
-align-items: center;
-width: 80px;
-height: 44px;
-position: relative;
-
-&:hover {
-    svg {
-    fill: #ffffff;
-    }
-
-    &::after {
-        display: block;
-        content: "";
-        position: absolute;
-        width: 100%;
-        left: 0;
-        bottom: -4px;
-        border-bottom: 2px solid #fff;
-    }
-}
-
-
-
-
 `;
 
 export const Icon = styled.span`
@@ -42,21 +30,46 @@ export const Icon = styled.span`
 svg {
     width: 24px; 
     height: 24px;
-    fill: #c7d1d8;
-}`;
+    fill: #283e4a;
+}
+
+img {
+    width: 24px;
+    height: 24px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+`;
 
 export const Text = styled.span`
-font-size: 1.2rem;
-line-height: 1.33333;
-display: block;
-font-weight: 400;
-line-height: 1.6rem;
-transition: color .3s;
+   font-size: 1.2rem;
+   line-height: 1.33333;
+   display: block;
+   font-weight: 400;
+   line-height: 1.6rem;
+   transition: color .3s;
 
-display: flex;
-align-items: center;
+   display: flex;
+   align-items: center;
 
-&:first-child {
-    margin-right: 10px;
-}
+   span {
+       margin-right: 2px;
+   }
+`;
+
+export const Notification = styled.span`
+    position: absolute;
+    top: -4px;
+    left: 50%;
+    height: 16px;
+    width: 16px;
+    line-height: 14px;
+    background-color: #d11124;
+    border: 2px solid #283e4a;
+    border-radius: 50px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 `;

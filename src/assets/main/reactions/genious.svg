@@ -1,0 +1,9 @@
+<svg width="48" height="48" xmlns="http://www.w3.org/2000/svg" id="interest-creation-large" data-supported-dps="48x48">
+  <g fill="none" fill-rule="evenodd">
+    <path d="M27 44h-6a2 2 0 01-2-2v-5h10v5a2 2 0 01-2 2z" fill="#C07800" fill-rule="nonzero"/>
+    <path d="M21 37l8 .07a11.22 11.22 0 01.09-3.57 6.61 6.61 0 01.78-1.63 4.58 4.58 0 01.63-.69l.14-.12A11.74 11.74 0 0035 22.17c0-6.075-4.925-11-11-11s-11 4.925-11 11v.06a11.42 11.42 0 004.13 8.66 10.9 10.9 0 011.77 2.79 9.61 9.61 0 01.8 3.08l.3.24" fill="#F5BB5C" fill-rule="nonzero"/>
+    <path d="M12 5.82l2.42 3.15M36 5.82l-2.42 3.15M24 2v4.77" stroke="#5D3B01" stroke-width="1.91" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M27 44h-6a2.21 2.21 0 01-2-2.1V37h10v4.9a2.21 2.21 0 01-2 2.1h0z" stroke="#5D3B01" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M29 38c0-3.63.41-4.47.41-4.47a6.33 6.33 0 011.89-3 11.72 11.72 0 003.09-4.62c.42-1.189.64-2.44.65-3.7v-.06A11.09 11.09 0 0024 11h0c-6.121.05-11.044 5.049-11 11.17v.06c.01 1.26.23 2.511.65 3.7a11.72 11.72 0 003.09 4.62 6.33 6.33 0 011.89 3s.41.84.41 4.47" stroke="#5D3B01" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
