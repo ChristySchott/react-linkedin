@@ -5,7 +5,7 @@ interface Props {
 }
 
 export const Container = styled.div<Props>`
-  padding-top: ${({ padding }) => padding ? '45px' : '60px'};
+  padding-top: ${({ padding }) => (padding ? '45px' : '60px')};
   width: 180px;
   margin: 0 auto;
   margin-top: 20px;

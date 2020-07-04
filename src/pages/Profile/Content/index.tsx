@@ -11,21 +11,19 @@ import Skills from './Skills';
 import Achievements from './Achievements';
 import Interests from './Interests';
 
-const Content: React.FC = () => {
-    return (
-        <Container>
-            <User />
-            <About />
-            <Carousel />
-            <Painel />
-            <Activities />
-            <Experience />
-            <Skills />
-            <Achievements />
-            <Interests />
-        </Container>
+const Content: React.FC = () => (
+  <Container>
+    <User />
+    <About />
+    <Carousel />
+    <Painel />
+    <Activities />
+    <Experience />
+    <Skills />
+    <Achievements />
+    <Interests />
+  </Container>
 
-    )
-}
+);
 
 export default Content;

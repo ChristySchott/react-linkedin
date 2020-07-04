@@ -7,7 +7,7 @@ export const Container = styled.div`
 export const Content = styled.div`
     position: relative;
     margin: 8px 12px;
-`
+`;
 
 export const Search = styled.div`
     position: absolute;
@@ -18,7 +18,7 @@ export const Search = styled.div`
         height: 16px;
         color: rgba(0,0,0,.6);
     }
-`
+`;
 
 export const Input = styled.input`
     width: 240px;
@@ -30,7 +30,7 @@ export const Input = styled.input`
     border-radius: .2rem;
     border: .1rem solid rgba(0,0,0,.6);
     color: rgba(0,0,0,.9);
-`
+`;
 
 export const Filter = styled.div`
     position: absolute;
@@ -41,6 +41,4 @@ export const Filter = styled.div`
         height: 16px;
         color: rgba(0,0,0,.6);
     }
-`
-
-
+`;

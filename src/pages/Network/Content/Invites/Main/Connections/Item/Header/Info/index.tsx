@@ -3,7 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import {
-    Container, BoxName, Name, BoxJob, Job,
+  Container, BoxName, Name, BoxJob, Job,
 } from './styles';
 
 interface Props {
@@ -13,16 +13,16 @@ interface Props {
 }
 
 const Info: React.FC<Props> = ({ name, job, padding = false }) => (
-    <Container padding={padding}>
-        <Link to="/profile">
-            <BoxName>
-                <Name>{name}</Name>
-            </BoxName>
-        </Link>
-        <BoxJob>
-            <Job>{job}</Job>
-        </BoxJob>
-    </Container>
+  <Container padding={padding}>
+    <Link to="/profile">
+      <BoxName>
+        <Name>{name}</Name>
+      </BoxName>
+    </Link>
+    <BoxJob>
+      <Job>{job}</Job>
+    </BoxJob>
+  </Container>
 );
 
 export default Info;

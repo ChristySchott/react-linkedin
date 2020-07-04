@@ -6,12 +6,10 @@ interface Props {
     name: string;
 }
 
-const Item: React.FC<Props> = ({ name }) => {
-    return (
-        <Container>
-            <Text>{name}</Text>
-        </Container>
-    )
-}
+const Item: React.FC<Props> = ({ name }) => (
+  <Container>
+    <Text>{name}</Text>
+  </Container>
+);
 
 export default Item;

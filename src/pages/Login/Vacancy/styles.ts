@@ -10,14 +10,13 @@ export const Content = styled.div`
     margin: 0 auto;
     display: flex;
     align-items: center;
-`
-
+`;
 
 export const Title = styled.div`
     margin-bottom: 40px;  
     width: 513px;
     margin-right: 67px;  
-`
+`;
 
 export const Text = styled.h1`
     font-size: 4rem;
@@ -30,7 +29,7 @@ export const Text = styled.h1`
 
     display: flex;
     max-width: 456px;
-`
+`;
 
 export const Button = styled.button`
     width: 210px;
@@ -51,4 +50,4 @@ export const Button = styled.button`
     &:hover {
         background-color: rgba(0,0,0,0.2);
     }
-`
+`;

@@ -14,16 +14,16 @@ export const Header = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
-`
+`;
 
-export const Text = styled.div``
+export const Text = styled.div``;
 
 export const Title = styled.h2`
     font-size: 1.8rem;
     line-height: 1.4;
     font-weight: 400;
     color: rgba(0,0,0,.9);
-`
+`;
 
 export const Footer = styled.div`
     display: flex;
@@ -46,4 +46,4 @@ export const Footer = styled.div`
         color: #0073b1; 
         line-height: 2rem;
     }
-`
+`;

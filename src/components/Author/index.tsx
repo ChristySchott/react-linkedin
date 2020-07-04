@@ -9,10 +9,10 @@ interface Props {
 }
 
 const Author: React.FC<Props> = ({ image, big = false, small = false }) => (
-    <BoxImage big={big} small={small}>
-        <Image><img src={image} alt="" /></Image>
-        <Connection />
-    </BoxImage>
+  <BoxImage big={big} small={small}>
+    <Image><img src={image} alt="" /></Image>
+    <Connection />
+  </BoxImage>
 );
 
 export default Author;

@@ -13,23 +13,29 @@ import Jobs from 'pages/Jobs';
 import Notifications from 'pages/Notifications';
 import Container from './styles';
 
-const routes: React.FC = () => {
-  return (
-    <BrowserRouter>
-      <Switch>
-        <Route path="/" exact component={Login} />
-        <Container>
-          {window.location.pathname !== "/" && <> <Header /> <Chat /> </>}
-          <Route path="/dashboard" exact component={Dashboard} />
-          <Route path="/network" component={Network} />
-          <Route path="/jobs" component={Jobs} />
-          <Route path="/messages" component={Messages} />
-          <Route path="/notifications" component={Notifications} />
-          <Route path="/profile" component={Profile} />
-        </Container>
-      </Switch>
-    </BrowserRouter>
-  )
-};
+const routes: React.FC = () => (
+  <BrowserRouter>
+    <Switch>
+      <Route path="/" exact component={Login} />
+      <Container>
+        {window.location.pathname !== "/" && (
+          <>
+            {' '}
+            <Header />
+            {' '}
+            <Chat />
+            {' '}
+          </>
+        )}
+        <Route path="/dashboard" exact component={Dashboard} />
+        <Route path="/network" component={Network} />
+        <Route path="/jobs" component={Jobs} />
+        <Route path="/messages" component={Messages} />
+        <Route path="/notifications" component={Notifications} />
+        <Route path="/profile" component={Profile} />
+      </Container>
+    </Switch>
+  </BrowserRouter>
+);
 
 export default routes;

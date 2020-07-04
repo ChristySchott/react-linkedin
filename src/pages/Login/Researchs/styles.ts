@@ -9,7 +9,7 @@ export const Content = styled.div`
     margin: 0 auto;
 
     padding-top: 220px;
-`
+`;
 
 export const Flex = styled.div`
     display: flex;
@@ -18,7 +18,7 @@ export const Flex = styled.div`
 `;
 
 export const Title = styled.div`
-`
+`;
 
 export const Text = styled.h1`
     font-size: 4.8rem;
@@ -32,6 +32,6 @@ export const Text = styled.h1`
     display: flex;
     max-width: 408;
     height: 120px;
-`
+`;
 
-export const Sugestion = styled.div``
+export const Sugestion = styled.div``;

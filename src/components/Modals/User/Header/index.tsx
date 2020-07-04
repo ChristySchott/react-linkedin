@@ -6,15 +6,15 @@ import Info from './Info';
 import CTA from './CTA';
 
 const Header: React.FC = () => (
-    <Container>
-        <User>
-            <Logo />
-            <Info />
-        </User>
-        <Profile>
-            <CTA />
-        </Profile>
-    </Container>
+  <Container>
+    <User>
+      <Logo />
+      <Info />
+    </User>
+    <Profile>
+      <CTA />
+    </Profile>
+  </Container>
 );
 
 export default Header;

@@ -9,15 +9,16 @@ interface Props {
     image: string;
 }
 
-const Item: React.FC<Props> = ({ image }) =>
-    <Wrapper margin>
-        <Container>
-            <Content>
-                <Header />
-                <Image><img src={image} alt="" /></Image>
-                <Footer />
-            </Content>
-        </Container>
-    </Wrapper>;
+const Item: React.FC<Props> = ({ image }) => (
+  <Wrapper margin>
+    <Container>
+      <Content>
+        <Header />
+        <Image><img src={image} alt="" /></Image>
+        <Footer />
+      </Content>
+    </Container>
+  </Wrapper>
+);
 
 export default Item;

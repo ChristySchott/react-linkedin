@@ -13,25 +13,24 @@ export const Container = styled.li`
     }
 `;
 
-
 export const Content = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
-`
+`;
 
 export const User = styled.div`
     display: flex;
     align-items: center;
-`
+`;
 
 export const BoxImage = styled.div`
     width: 80px;
     height: 72px;
     display: flex;
     justify-content: flex-start;
-`
+`;
 
 export const Image = styled.div`
     width: 72px;
@@ -44,9 +43,9 @@ export const Image = styled.div`
         width: 72px;
         height: 72px;
     }
-`
+`;
 
-export const Text = styled.div``
+export const Text = styled.div``;
 
 export const Name = styled.span`
     font-size: 1.6rem;
@@ -54,21 +53,21 @@ export const Name = styled.span`
     font-weight: 600;
     color: rgba(0,0,0,.9);
     display: block;
-`
+`;
 
 export const Job = styled(Name)`
     font-size: 1.5rem;
     font-weight: 400;
     color: rgba(0, 0, 0, .6);
     line-height: 1.2;
-`
+`;
 
-export const Connections = styled(Job)``
+export const Connections = styled(Job)``;
 
 export const Actions = styled.div`
     display: flex;
     align-items: center;
-`
+`;
 
 export const Ignore = styled.button`
     width: 70px;
@@ -84,7 +83,7 @@ export const Ignore = styled.button`
     border-radius: 2px;
     font-weight: 500;
     margin-right: 10px;
-`
+`;
 
 export const Accept = styled(Ignore)`
     border: 1px solid #0073b1;
@@ -98,5 +97,4 @@ export const Accept = styled(Ignore)`
         color: #006097;
         box-shadow: inset 0 0 0 1px #006097; 
     }
-`
-
+`;

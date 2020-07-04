@@ -17,13 +17,13 @@ export const Image = styled.div`
         border: 4px solid transparent;
         height: 56px;
     }
-`
+`;
 
 export const Infos = styled.div`
     width: 307px;
     margin-left: 20px;
     margin-top: 4px;
-`
+`;
 
 export const Name = styled.span`
     font-size: 1.4rem;
@@ -36,7 +36,7 @@ export const Name = styled.span`
         color: rgba(0, 0, 0, .6);
         font-weight: 400;
     }
-`
+`;
 
 export const Followers = styled.span`
     font-size: 1.3rem;
@@ -44,4 +44,4 @@ export const Followers = styled.span`
     font-weight: 400;
     color: rgba(0,0,0,.9);
     display: block;
-`
+`;

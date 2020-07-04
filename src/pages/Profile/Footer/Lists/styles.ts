@@ -4,7 +4,7 @@ export const Container = styled.div`
     display: flex;
 `;
 
-export const List = styled.ul``
+export const List = styled.ul``;
 
 export const Item = styled.li`
     display: flex;
@@ -23,7 +23,7 @@ export const Item = styled.li`
     &:hover {
         color: #0073b1;
     }
-`
+`;
 
 export const Icon = styled.div`
     margin-left: 12px;
@@ -31,5 +31,4 @@ export const Icon = styled.div`
         width: 12.8px;
         height: 12.8px;
     }
-`
-
+`;
