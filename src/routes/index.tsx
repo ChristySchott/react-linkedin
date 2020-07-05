@@ -11,20 +11,19 @@ import Network from 'pages/Network';
 import Messages from 'pages/Messages';
 import Jobs from 'pages/Jobs';
 import Notifications from 'pages/Notifications';
+import Premium from 'pages/Premium';
 import Container from './styles';
 
 const routes: React.FC = () => (
   <BrowserRouter>
     <Switch>
       <Route path="/" exact component={Login} />
+      <Route path="/premium" component={Premium} />
       <Container>
-        {window.location.pathname !== "/" && (
+        {window.location.pathname !== "/" && window.location.pathname !== "/premium" && (
           <>
-            {' '}
             <Header />
-            {' '}
             <Chat />
-            {' '}
           </>
         )}
         <Route path="/dashboard" exact component={Dashboard} />

@@ -47,7 +47,7 @@ const Nav: React.FC = () => {
           <Item notification path="/notifications" icon={<ReactNotifications />} text="Notificações" onClick={() => { setActive(5); setNotification([...notification, 5]); }} />
           <Item icon={<img src="https://media-exp1.licdn.com/dms/image/C4E03AQGArBZoTlAL5Q/profile-displayphoto-shrink_100_100/0?e=1599091200&v=beta&t=8TgATuNtdQS00Pg0e5Ci1l7QOrwLHp1y0UlaOYPlq5I" alt="" />} text="Eu" drop onClick={toggleModal} />
           <Item icon={<BsFillGrid3X3GapFill size={18} />} text="Soluções" drop onClick={toggleModalSolution} />
-          <Premium><Link to="/">Reative Premium</Link></Premium>
+          <Premium><Link to="/premium">Reative Premium</Link></Premium>
         </NavMain>
         <ModalUser isOpen={isOpen} onBackgroundClick={toggleModal}>
           <User />
