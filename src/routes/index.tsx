@@ -13,6 +13,7 @@ import Jobs from 'pages/Jobs';
 import Notifications from 'pages/Notifications';
 import Premium from 'pages/Premium';
 import Container from './styles';
+import Connections from 'pages/Connections';
 
 const routes: React.FC = () => (
   <BrowserRouter>
@@ -32,6 +33,7 @@ const routes: React.FC = () => (
         <Route path="/messages" component={Messages} />
         <Route path="/notifications" component={Notifications} />
         <Route path="/profile" component={Profile} />
+        <Route path="/connections" component={Connections} />
       </Container>
     </Switch>
   </BrowserRouter>

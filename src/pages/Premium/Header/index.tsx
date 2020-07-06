@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import { ReactComponent as LogoIcon } from 'assets/premium/logo.svg';
 
@@ -9,7 +10,9 @@ import {
 const Header: React.FC = () => (
   <Container>
     <Content>
-      <Logo><LogoIcon /></Logo>
+      <Link to="/dashboard">
+        <Logo><LogoIcon /></Logo>
+      </Link>
       <Text>Voltar para o LinkedIn.com</Text>
     </Content>
   </Container>

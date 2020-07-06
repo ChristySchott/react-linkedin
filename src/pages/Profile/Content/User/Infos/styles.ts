@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import Modal from 'styled-react-modal';
 
 export const Container = styled.div`
   display: flex;
@@ -77,5 +78,12 @@ export const NameCompany = styled(Contact)`
     color: rgba(0,0,0,.9);
     line-height: 1.2;
 `
+
+export const StyledModal = Modal.styled`
+  width: 552px;
+  height: 487px;
+  background: white;
+  top: 0;
+`;
 
 

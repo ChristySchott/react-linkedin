@@ -22,7 +22,7 @@ const Sugestions: React.FC = () => (
         job="React Architect | Frontend Engineer | Software..."
       />
       <Item
-        image="https://media-exp1.licdn.com/dms/image/C4D35AQEjFylfxd_Eow/profile-framedphoto-shrink_100_100/0?e=1593900000&v=beta&t=zSvfAX3f0ULFt55dNdfr4Z2qkuy1hRadTD4matQFYqc"
+        image="https://media-exp1.licdn.com/dms/image/C4D03AQG2AhT6bBT_YA/profile-displayphoto-shrink_100_100/0?e=1599696000&v=beta&t=CXF-zsSOT29N2rO7Wgnz67T-9Vo_JER-V9uLEDO_NyY"
         name="Andressa Schinoff"
         job="Full Stack Developer Student"
       />
