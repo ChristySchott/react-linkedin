@@ -11,13 +11,13 @@ const Content: React.FC = () => {
                 name="Sensacional, Anderson! Parabéns pela iniciativa!"
             />
             <Item
-                image="https://media-exp1.licdn.com/dms/image/C4D05AQGchI0_ZmTCvg/videocover-low/0?e=1593828000&v=beta&t=YzJ4CM2rkDHZ0fc3sBheHACRB-04M8_JjDUdwIFX79w"
+                image="https://media-exp1.licdn.com/dms/image/sync/C4D27AQGeD9X8PDKqCQ/articleshare-shrink_160/0?e=1594220400&v=beta&t=R1_av9CJMMvWHcHd3-_S8rOg7N45KF4hubr-HBXM_sw"
                 name="Show cara, ta bem fiel! To desenvolvendo um projeot pessoal p..."
             />
         </List>
         <ListTwo>
             <Item
-                image="https://media-exp1.licdn.com/dms/image/C4D05AQGchI0_ZmTCvg/videocover-low/0?e=1593828000&v=beta&t=YzJ4CM2rkDHZ0fc3sBheHACRB-04M8_JjDUdwIFX79w"
+                image="https://media-exp1.licdn.com/dms/image/C4E22AQFr35OrsOdc7g/feedshare-shrink_160/0?e=1597276800&v=beta&t=4wjvy3v9IYujokANS-oWrsO6nwOFA7hHj2S1vSJ_AyM"
                 name="Que daora, mano! Parabéns pela disposição, abraços!"
             />
             <Item

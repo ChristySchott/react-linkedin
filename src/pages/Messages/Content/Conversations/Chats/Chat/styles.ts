@@ -18,7 +18,6 @@ export const BoxImage = styled.div`
     height: 56px;
     
     img {
-        width: 50px;
         height: 50px;
         border-radius: 50%;
     }
@@ -36,14 +35,14 @@ export const Infos = styled.div`
 `;
 
 export const Name = styled.span`
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     line-height: 1.5;
     font-weight: 400;
     color: rgba(0,0,0,.9);
 `;
 
 export const Date = styled(Name)`
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 `;
 
 export const Message = styled.div`
