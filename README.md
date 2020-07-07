@@ -1,5 +1,5 @@
 <h1 align="center">
- :camera: React Instagram :briefcase:
+ :postbox: React LinkedIn :briefcase:
 </h1>
 
 <p align="center">
@@ -43,17 +43,35 @@ O projeto é uma reprodução de 8 páginas do LinkedIn e foi desenvolvido para 
 
 ## 🎨 Layout
 
-Página Inicial:
+Página Login:
 
-![Image React Instagram Layout](https://github.com/ChristySchott/react-instagram/blob/master/layout/layout1.JPG)
+![Image React LinkedIn Layout](https://github.com/ChristySchott/react-linkedin/blob/master/layout/login.PNG)
 
-![Image React Instagram Layout](https://github.com/ChristySchott/react-instagram/blob/master/layout/layout2.JPG)
+Dashboard: 
+
+![Dashboard](https://github.com/ChristySchott/react-linkedin/blob/master/layout/dashboard.PNG)
+
+Network:
+
+![Network](https://github.com/ChristySchott/react-linkedin/blob/master/layout/network.PNG)
+
+Jobs:
+
+![Jobs](https://github.com/ChristySchott/react-linkedin/blob/master/layout/jobs.PNG)
+
+Messages:
+
+![Messages](https://github.com/ChristySchott/react-linkedin/blob/master/layout/chat.PNG)
+
+Notifications:
+
+![Notifications](https://github.com/ChristySchott/react-linkedin/blob/master/layout/notifications.PNG)
 
 Perfil:
 
-![Image React Instagram Layout](https://github.com/ChristySchott/react-instagram/blob/master/layout/layout3.JPG)
+![Image React Instagram Layout](https://github.com/ChristySchott/react-linkedin/blob/master/layout/profile.PNG)
 
-![Image React Instagram Layout](https://github.com/ChristySchott/react-instagram/blob/master/layout/layout4.JPG)
+![Image React Instagram Layout](https://github.com/ChristySchott/react-linkedin/blob/master/layout/profile2.PNG)
 
 ### Aprendizados:
 
