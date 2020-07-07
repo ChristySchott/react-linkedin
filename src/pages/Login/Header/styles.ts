@@ -72,7 +72,7 @@ export const Image = styled.div`
     position: absolute;
     right: -130px;
     top: -5px;
-    svg {
+    img {
         width: 660px;
         height: 660px;
     }
