@@ -39,14 +39,14 @@ export const Icon = styled.button`
     }
 
     margin-left: 8px;
-`
+`;
 
-export const Content = styled.ul``
+export const Content = styled.ul``;
 
 export const Actions = styled.div`
     display: flex;
     align-items: center;
-`
+`;
 
 export const Add = styled.button`
     margin-right: 10px;
@@ -66,22 +66,28 @@ export const Add = styled.button`
     justify-content: center;
 
     &:hover {
-        background-color: rgba(0,0,0,.6);
-        color: #fff;
+        background-color: hsla(0,0%,81.2%,.25);
+        color: rgba(0,0,0,.75);
     }
 
 
-`
+`;
 
 export const Test = styled(Add)`
     background-color: transparent;
     color: #0073b1;
     box-shadow: inset 0 0 0 1px #0073b1; 
     margin: 10px 0 0 15px;
-`
+
+    &:hover {
+        background-color: rgba(152,216,244,.25);
+        color: #006097;
+        box-shadow: inset 0 0 0 2px #006097;
+    }
+`;
 
 export const Infos = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
-`
+`;

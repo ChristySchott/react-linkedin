@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import Ad from 'components/Ad';
 import {
@@ -8,21 +8,24 @@ import Left from './Left';
 import Right from './Right';
 import Main from './Main';
 
-const Notification: React.FC = () => (
-  <WrapperAd>
-    <Ad />
-    <Container>
-      <Aside>
-        <Left />
-      </Aside>
-      <Core>
-        <Main />
-      </Core>
-      <AsideRight>
-        <Right />
-      </AsideRight>
-    </Container>
-  </WrapperAd>
-);
+const Notification: React.FC = () => {
+  useEffect(() => window.scrollTo(0, 0));
+  return (
+    <WrapperAd>
+      <Ad />
+      <Container>
+        <Aside>
+          <Left />
+        </Aside>
+        <Core>
+          <Main />
+        </Core>
+        <AsideRight>
+          <Right />
+        </AsideRight>
+      </Container>
+    </WrapperAd>
+  );
+};
 
 export default Notification;

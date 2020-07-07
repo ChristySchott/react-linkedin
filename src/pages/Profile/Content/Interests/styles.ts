@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import Modal from 'styled-react-modal';
 
 export const Container = styled.div`
     height: 305px;
@@ -46,4 +47,11 @@ export const Footer = styled.div`
         color: #0073b1; 
         line-height: 2rem;
     }
+`;
+
+export const StyledModal = Modal.styled`
+  width: 744px;
+  height: 515px;
+  background: white;
+  top: 0;
 `;

@@ -1,9 +1,9 @@
 import styled from 'styled-components';
+import Modal from 'styled-react-modal';
 
 export const Container = styled.div`
   position: relative;
 `;
-
 
 export const Cover = styled.div`
     height: 198px;
@@ -12,7 +12,7 @@ export const Cover = styled.div`
     }
 
     position: relative;
-`
+`;
 
 export const Icon = styled.button`
     width: 32px;
@@ -34,7 +34,7 @@ export const Icon = styled.button`
         height: 16px;
     }
 
-`
+`;
 
 export const Infos = styled.div`
     width: 100%;
@@ -44,7 +44,7 @@ export const Infos = styled.div`
     padding: 0 24px 24px;
     position: absolute;
     top: 100px;
-`
+`;
 
 export const Photo = styled.button`
     width: 152px;
@@ -56,18 +56,18 @@ export const Photo = styled.button`
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    border: 3px solid rgb(200, 200, 200);
+    border: 3px solid #fff;
 
     img {
         width: 152px;
         height: 152px;
     }
-`
+`;
 
 export const Actions = styled.div`
     display: flex;
     align-items: center;
-`
+`;
 
 export const Add = styled.button`
     width: 223px;
@@ -90,7 +90,7 @@ export const Add = styled.button`
     svg {
         margin: 5px 0 0 5px;
     }
-`
+`;
 
 export const More = styled(Add)`
     width: 71px;
@@ -102,7 +102,7 @@ export const More = styled(Add)`
         background-color: rgba(207,207,207,.25);
         color: rgba(0,0,0,.75);
     }
-`
+`;
 
 export const Edit = styled(Icon)`
     position: relative;
@@ -120,6 +120,13 @@ export const Edit = styled(Icon)`
         background-color: rgba(152,216,244,.25);
         color: #006097;
     }
-`
+`;
 
-export const Drop = styled.div``
+export const Drop = styled.div``;
+
+export const StyledModal = Modal.styled`
+  width: 744px;
+  height: 619px;
+  background: white;
+  top: 0;
+`;

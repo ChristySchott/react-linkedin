@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import { ReactComponent as IconLogo } from 'assets/login/logo.svg';
-import { ReactComponent as IconHero } from 'assets/login/hero.svg';
 import Welcome from './Welcome';
 
 import {
@@ -28,7 +27,7 @@ const Header: React.FC = () => (
       <Hero>
         <Welcome />
         <Image>
-          <IconHero />
+          <img src="https://static-exp1.licdn.com/sc/h/3m4tgpbdz7gbldapvl63mrnxz" alt="" />
         </Image>
       </Hero>
     </Content>

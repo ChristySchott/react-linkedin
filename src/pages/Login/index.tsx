@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import { Container } from './styles';
 import Header from './Header';
@@ -8,15 +8,18 @@ import Vacancy from './Vacancy';
 import Connect from './Connect';
 import Footer from './Footer';
 
-const Login: React.FC = () => (
-  <Container>
-    <Header />
-    <Researchs />
-    <Vacancy />
-    <Learn />
-    <Connect />
-    <Footer />
-  </Container>
-);
+const Login: React.FC = () => {
+  useEffect(() => window.scrollTo(0, 0))
+  return (
+    <Container>
+      <Header />
+      <Researchs />
+      <Vacancy />
+      <Learn />
+      <Connect />
+      <Footer />
+    </Container>
+  )
+};
 
 export default Login;

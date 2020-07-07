@@ -19,7 +19,7 @@ const Chats: React.FC = () => (
       message="Você: Boa noite, Alan! Uau, que ideia incrível ..."
     />
     <Chat
-      image="https://media-exp1.licdn.com/dms/image/C4D35AQFz4CBrCa45OQ/profile-framedphoto-shrink_100_100/0?e=1593900000&v=beta&t=K28W2ChWBYxSLcothXv_29g-GQKE-Sd0Ar1MBFTcsM4"
+      image="https://media-exp1.licdn.com/dms/image/C5603AQE0-87XrV2x4Q/profile-displayphoto-shrink_100_100/0?e=1599696000&v=beta&t=kMEe7SX4dehvCtGlZnVKevm1lTbbRN8RXd2GPueqHTc"
       name="Sherlock Holme..."
       date="25 de jun de"
       message="Você: Show! Muito obrigado Debora, a honra é toda..."
@@ -55,7 +55,7 @@ const Chats: React.FC = () => (
       message="Bilbo: Muito obrigado!"
     />
     <Chat
-      image="https://media-exp1.licdn.com/dms/image/C4D35AQFz4CBrCa45OQ/profile-framedphoto-shrink_100_100/0?e=1593900000&v=beta&t=K28W2ChWBYxSLcothXv_29g-GQKE-Sd0Ar1MBFTcsM4"
+      image="https://media-exp1.licdn.com/dms/image/C5603AQE0-87XrV2x4Q/profile-displayphoto-shrink_100_100/0?e=1599696000&v=beta&t=kMEe7SX4dehvCtGlZnVKevm1lTbbRN8RXd2GPueqHTc"
       name="Ada Lovelace"
       date="27 de jun de"
       message="Ada: Obrigado, Christy."
@@ -91,7 +91,7 @@ const Chats: React.FC = () => (
       message="Você: Show! Muito obrigado Debora, a honra é toda..."
     />
     <Chat
-      image="https://media-exp1.licdn.com/dms/image/C4D35AQFz4CBrCa45OQ/profile-framedphoto-shrink_100_100/0?e=1593900000&v=beta&t=K28W2ChWBYxSLcothXv_29g-GQKE-Sd0Ar1MBFTcsM4"
+      image="https://media-exp1.licdn.com/dms/image/C5603AQE0-87XrV2x4Q/profile-displayphoto-shrink_100_100/0?e=1599696000&v=beta&t=kMEe7SX4dehvCtGlZnVKevm1lTbbRN8RXd2GPueqHTc"
       name="Bilbo Bolseiro"
       date="25 de jun de"
       message="Bilbo: Muito obrigado!"

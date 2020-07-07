@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import Publish from 'components/Publish';
 import Ad from 'components/Ad';
@@ -7,18 +7,21 @@ import {
 } from './styles';
 import Content from './Content';
 
-const Jobs: React.FC = () => (
-  <WrapperAd>
-    <Ad />
-    <Container>
-      <Main>
-        <Content />
-      </Main>
-      <Aside>
-        <Publish banner />
-      </Aside>
-    </Container>
-  </WrapperAd>
-);
+const Jobs: React.FC = () => {
+  useEffect(() => window.scrollTo(0, 0));
+  return (
+    <WrapperAd>
+      <Ad />
+      <Container>
+        <Main>
+          <Content />
+        </Main>
+        <Aside>
+          <Publish banner />
+        </Aside>
+      </Container>
+    </WrapperAd>
+  );
+};
 
 export default Jobs;

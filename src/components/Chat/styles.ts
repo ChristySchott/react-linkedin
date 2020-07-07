@@ -9,7 +9,7 @@ export const Container = styled.div<Props>`
     bottom: 0;
     right: 20px;
     transform: translateY(510px);
-    ${({ show }) => show && 'transform: translateY(-10px);'}
+    ${({ show }) => show && 'transform: translateY(1px);'}
     transition-timing-function: cubic-bezier(.4,0,.2,1);
     transition-duration: 167ms;
 
